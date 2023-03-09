@@ -44,4 +44,4 @@ for ip in ips:
     excel_sheet.append(ip_info)
     count = count + 1
     
-excel.save("results.xlsx")
+excel.save(excel_name)
