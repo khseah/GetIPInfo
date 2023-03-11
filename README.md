@@ -1,6 +1,8 @@
 # GetIPInfo
 
 This is a simple Python script that takes in a list of IP addresses, `inputs.txt`, and outputs additional information on the IP addresses into an excel spreadsheet `results.xlsx`. This information includes:
+- Number of times IP has been reported
+- Abuse Confidence (%)
 - Internet Service Provider
 - Usage Type
 - Hostname (if available)
